@@ -90,7 +90,7 @@ static NSInteger const kAdSequenceNone = -1;
              desiredAssets:(NSArray *)assets
                 adSequence:(NSInteger)adSequence
 {
-    NSString *URLString = [NSString stringWithFormat:@"http://%@/m/ad?v=%@&udid=%@&id=%@&%@=%@",
+    NSString *URLString = [NSString stringWithFormat:@"https://%@/m/ad?v=%@&udid=%@&id=%@&%@=%@",
                            testing ? HOSTNAME_FOR_TESTING : HOSTNAME,
                            MP_SERVER_VERSION,
                            [MPIdentityProvider identifier],

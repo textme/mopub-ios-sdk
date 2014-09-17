@@ -10,7 +10,7 @@
 
 #define MP_DEBUG_MODE               1
 
-#define HOSTNAME                    @"ads.mopub.com"
+#define HOSTNAME                    @"secure-ads.mopub.com"
 #define HOSTNAME_FOR_TESTING        @"testing.ads.mopub.com"
 #define DEFAULT_PUB_ID              @"agltb3B1Yi1pbmNyDAsSBFNpdGUYkaoMDA"
 #define MP_SERVER_VERSION           @"8"
